@@ -1,7 +1,32 @@
-body{
+body {
 
 	background: #101011;
 	color: #ADD6B4;
+	overflow-y: scroll;
+	padding: 0;
+	margin: 0;
+	font-family: Hand of Sean;
+	font-size: 22px;
+	width: 960px;
+	margin: 60px auto;
+	text-align: center;
 	
 }
+
+
+
+h1 {
+
+	text-align: center;
+	vertical-align: text-top;
+
+}
+
+p {
+	text-align: center;
+	font-size: 1em;
+
+}
+
+
 
