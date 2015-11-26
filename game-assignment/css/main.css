@@ -106,6 +106,7 @@ h1 {
 }
 
 .begin {
+
     font-size: 40px;
     font-family: 'Lakki Reddy', cursive;
     color: #158E4E;
@@ -153,6 +154,22 @@ p {
     position: absolute;
     margin: auto;
     top: 400px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+}
+
+h3 {
+
+    font-size: 2em;
+    color:white;
+    font-family: 'Lakki Reddy', cursive;
+    text-align: center;
+    vertical-align: text-top;
+    position: absolute;
+    margin: auto;
+    top: 700px;
     bottom: 0;
     left: 0;
     right: 0;
