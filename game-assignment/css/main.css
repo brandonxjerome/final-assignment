@@ -1,5 +1,7 @@
 /*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
 
+@import url(https://fonts.googleapis.com/css?family=Lakki+Reddy);
+
 html {
     color: #222;
     font-size: 1em;
@@ -72,19 +74,89 @@ body {
 }
 
 
+.menu {
+
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+}
+
+
 
 h1 {
 
+    font-family: 'Lakki Reddy', cursive;
     text-align: center;
     vertical-align: text-top;
+    position: absolute;
+    margin: auto;
+    top: 635px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+}
+
+.begin {
+
+    font-family: 'Lakki Reddy', cursive;
+    color: #158E4E;
+    position: absolute;
+    margin: auto;
+    top: 700px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+}
+
+.howtoplay {
+
+    color:#158E4E;
+    font-family: 'Lakki Reddy', cursive;
+    text-align: center;
+    vertical-align: text-top;
+    position: absolute;
+    margin: auto;
+    top: 100px;
+    bottom: 0;
+    left: 0;
+    right: 0;
 
 }
 
 p {
+
+    font-family: 'Lakki Reddy', cursive;
+    position: absolute;
+    margin: auto;
+    top: 200px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.levels {
+
+    color:#158E4E;
+    font-family: 'Lakki Reddy', cursive;
     text-align: center;
-    font-size: 1em;
+    vertical-align: text-top;
+    position: absolute;
+    margin: auto;
+    top: 400px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
 
 }
+
+
 
 
 
