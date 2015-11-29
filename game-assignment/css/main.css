@@ -160,7 +160,7 @@ p {
 
 }
 
-h3 {
+.start {
 
     font-size: 2em;
     color:white;
@@ -174,12 +174,37 @@ h3 {
     left: 0;
     right: 0;
 
+}
+
+.l1 {
+
+    color:#158E4E;
+    text-align: center;
+    vertical-align: text-top;
+    position: absolute;
+    margin: auto;
+    top: 100px;
+    bottom: 0;
+    left: 0;
+    right: 0;
 
 }
 
+div {
 
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    vertical-align: text-top;
+    position: absolute;
+    margin: auto;
+    top: 100px;
+    bottom: 0;
+    left: 0;
+    right: 0;
 
-
+}
 
 
 
