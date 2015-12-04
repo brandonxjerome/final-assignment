@@ -14,60 +14,41 @@ $(document).ready(function() {
 
     $(".l1").fadeOut(3500);
 
+
 });
 
 // Main Menu blinking function //
 
-$(document).ready(function() {
+$(function () {
+    var $element = $('.begin');
+    function fadeInOut () {
+        $element.fadeIn(700, function () {
+            $element.fadeOut(700, function () {
+                $element.fadeIn(700, function () {
+                    setTimeout(fadeInOut, 500);
+                });
+            });
+        });
+    }
 
-    $(".begin").fadeOut(1000);
-    $(".begin").fadeIn(1000);
-    $(".begin").fadeOut(1000);
-    $(".begin").fadeIn(1000);
-    $(".begin").fadeOut(1000);
-    $(".begin").fadeIn(1000);
-    $(".begin").fadeOut(1000);
-    $(".begin").fadeIn(1000);
-    $(".begin").fadeOut(1000);
-    $(".begin").fadeIn(1000);
-    $(".begin").fadeOut(1000);
-    $(".begin").fadeIn(1000);
-    $(".begin").fadeOut(1000);
-    $(".begin").fadeIn(1000);
-    $(".begin").fadeOut(1000);
-    $(".begin").fadeIn(1000);
-    $(".begin").fadeOut(1000);
-    $(".begin").fadeIn(1000);
-    $(".begin").fadeOut(1000);
-    $(".begin").fadeIn(1000);
-    $(".begin").fadeOut(1000);
-    $(".begin").fadeIn(1000);
-
+    fadeInOut();
 });
 
-// Start blinking function //
+// Start the game blinking function //
 
-$(document).ready(function() {
-	$(".start").fadeOut(1000);
-    $(".start").fadeIn(1000);
-    $(".start").fadeOut(1000);
-    $(".start").fadeIn(1000);
-    $(".start").fadeOut(1000);
-    $(".start").fadeIn(1000);
-    $(".start").fadeOut(1000);
-    $(".start").fadeIn(1000);
-    $(".start").fadeOut(1000);
-    $(".start").fadeIn(1000);
-    $(".start").fadeOut(1000);
-    $(".start").fadeIn(1000);
-    $(".start").fadeOut(1000);
-    $(".start").fadeIn(1000);
-    $(".start").fadeOut(1000);
-    $(".start").fadeIn(1000);
-    $(".start").fadeOut(1000);
-    $(".start").fadeIn(1000);
-    $(".start").fadeOut(1000);
-    $(".start").fadeIn(1000);
+$(function () {
+    var $element = $('.start');
+    function fadeInOut () {
+        $element.fadeIn(700, function () {
+            $element.fadeOut(700, function () {
+                $element.fadeIn(700, function () {
+                    setTimeout(fadeInOut, 500);
+                });
+            });
+        });
+    }
+
+    fadeInOut();
 });
 
 
