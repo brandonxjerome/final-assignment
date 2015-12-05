@@ -68,6 +68,7 @@ body {
     font-family: Hand of Sean;
     font-size: 22px;
     width: 960px;
+    height: auto;
     margin: 60px auto;
     text-align: center;
     
@@ -79,6 +80,8 @@ body {
 
     width: 1000px;
     height: 800px;
+    text-align: center;
+    vertical-align: text-top;
     position: absolute;
     margin: auto;
     top: 0px;
@@ -98,7 +101,7 @@ h1 {
     vertical-align: text-top;
     position: absolute;
     margin: auto;
-    top: 635px;
+    top: 700px;
     bottom: 0;
     left: 0;
     right: 0;
@@ -112,7 +115,7 @@ h1 {
     color: #158E4E;
     position: absolute;
     margin: auto;
-    top: 725px;
+    top: 800px;
     bottom: 0;
     left: 0;
     right: 0;
@@ -153,7 +156,7 @@ p {
     vertical-align: text-top;
     position: absolute;
     margin: auto;
-    top: 400px;
+    top: 300px;
     bottom: 0;
     left: 0;
     right: 0;
@@ -190,7 +193,7 @@ p {
 
 }
 
-div {
+.money {
 
     display: inline-block;
     width: 600px;
@@ -199,16 +202,18 @@ div {
     vertical-align: text-top;
     position: absolute;
     margin: auto;
-    top: 100px;
-    bottom: 0;
+    top: 0;
     left: 0;
-    right: 0;
 
 }
 
 
-
-
+.page {
+    display: none;
+}
+#index {
+    display: block;
+}
 
 
 @media (min-width: 480px) {
