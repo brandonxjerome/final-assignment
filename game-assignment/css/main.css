@@ -6,6 +6,9 @@ html {
     color: #222;
     font-size: 1em;
     line-height: 1.4;
+    overflow-x: hidden;
+    overflow-y: scroll;
+
 }
 
 ::-moz-selection {
@@ -208,9 +211,24 @@ p {
 }
 
 
+
+#time p {
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 2000px;
+    height: 10px;
+    background: #444;
+    
+}
+
+
+
 .page {
     display: none;
 }
+
 #index {
     display: block;
 }
