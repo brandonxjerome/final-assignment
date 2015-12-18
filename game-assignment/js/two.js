@@ -16,9 +16,9 @@
     }); 
 
 
-    // Level One text fade out 
+    // LevelTwo text fade out 
 
-    $(".l1").fadeOut(6000);
+    $(".l1").fadeOut(3000);
     $('a[data-page]').on('click', function(e) {
 
     var go = $(this).attr('data-page');
@@ -73,14 +73,15 @@
     });
 
 
+
     //Money appearing random and clicking it
 
     $("document").ready(function(){
     var score=0;
     $(".money").click(function(){
-    y=Math.random()*900;
-    d=Math.random()*200;
-    w=Math.random()*20;
+    y=Math.random()*1000;
+    d=Math.random()*600;
+    w=Math.random()*150;
     if (w<10) { $(".money").css({left: y, top: d, width: "50px"}); }
     if (w>10) { $(".money").css({left: y, top: d, width: w}); }
     score+=1;
@@ -88,14 +89,11 @@
 
     // Timer Function and Score
 
-    $("#time p").animate({width: "0"}, 5000, function(){
+    $("#time p").animate({width: "0"}, 10000, function(){
     $("#time").fadeOut(300, function(){
-    $("body").append("<div id='score'><p>Good Job! You completed level one with $ <span id='sc'>"+score+"</span></p></div>");
+    $("body").append("<div id='score'><p>Good Job! You completed level Two with $ <span id='sc'>"+score+"</span></p></div>");
     $("#score").fadeIn(1000);
     $("#score").css({left: (screen.width)/2 - 250, top: (screen.height)/2 - 25});
     });
     });
     });
-
-
-

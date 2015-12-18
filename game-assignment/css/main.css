@@ -118,10 +118,24 @@ h1 {
     color: #158E4E;
     position: absolute;
     margin: auto;
+    top: 50%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+}
+
+.one {
+    font-size: 40px;
+    font-family: 'Lakki Reddy', cursive;
+    color: #158E4E;
+    position: absolute;
+    margin: auto;
     top: 75%;
     bottom: 0;
     left: 0;
     right: 0;
+
 
 }
 
@@ -216,8 +230,9 @@ p {
 
     position: absolute;
     top: 20px;
-    left: 10px;
-    width: 2000px;
+    left: 20px;
+    right: 20px;
+    width: 1000px;
     height: 20px;
     background: #444;
     
@@ -232,6 +247,8 @@ p {
 #index {
     display: block;
 }
+
+
 
 
 @media (min-width: 480px) {
