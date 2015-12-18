@@ -63,14 +63,14 @@ textarea {
 
 body {
 
-    background: #101011;
+    background: #fff;
     color: #ADD6B4;
     overflow-y: scroll;
     padding: 0;
     margin: 0;
     font-family: Hand of Sean;
     font-size: 22px;
-    width: 960px;
+    width: 100%;
     height: auto;
     margin: 60px auto;
     text-align: center;
@@ -83,8 +83,8 @@ body {
 
     width: 1000px;
     height: 800px;
-    text-align: center;
-    vertical-align: text-top;
+   /* text-align: center;
+    vertical-align: text-top;*/
     position: absolute;
     margin: auto;
     top: 0px;
@@ -104,7 +104,7 @@ h1 {
     vertical-align: text-top;
     position: absolute;
     margin: auto;
-    top: 700px;
+    top: 65%;
     bottom: 0;
     left: 0;
     right: 0;
@@ -118,7 +118,7 @@ h1 {
     color: #158E4E;
     position: absolute;
     margin: auto;
-    top: 800px;
+    top: 75%;
     bottom: 0;
     left: 0;
     right: 0;
@@ -169,7 +169,7 @@ p {
 .start {
 
     font-size: 2em;
-    color:white;
+    color:#158E4E;
     font-family: 'Lakki Reddy', cursive;
     text-align: center;
     vertical-align: text-top;
@@ -215,10 +215,10 @@ p {
 #time p {
 
     position: absolute;
-    top: 0;
-    bottom: 0;
+    top: 20px;
+    left: 10px;
     width: 2000px;
-    height: 10px;
+    height: 20px;
     background: #444;
     
 }
